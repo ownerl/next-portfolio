@@ -1,12 +1,17 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document';
+import Navbar from '@/components/navbar';
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <Navbar />
       <body>
         <Main />
         <NextScript />
+        <footer>
+          yoyoyo
+        </footer>
       </body>
     </Html>
   )
