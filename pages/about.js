@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 
 export default function About() {
-    const [fontSize, setFontSize] = useState(3)
+    const [fontSize, setFontSize] = useState(1)
     return (
         <>
             <h1 id={styles.aboot}>About Me</h1>

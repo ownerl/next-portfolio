@@ -10,7 +10,7 @@ export default function Document() {
         <Main />
         <NextScript />
         <footer>
-          &#169; 2023 Abay Rysbek
+          &#169; 2023 Abay Rysbek - Site Still Under Construction!
         </footer>
       </body>
     </Html>
