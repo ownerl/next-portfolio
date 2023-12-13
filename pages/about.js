@@ -10,8 +10,8 @@ export default function About() {
     return (
         <>
             <h1 id={styles.aboot}>About Me</h1>
-            <p className="fontSize">Abay Rysbek</p>
-            <p>Software Engineer with a background in UX/UI & Product Design who is passionate about marrying good design practices with practicality and functionality of well-built systems and software. Currently in pursuit of AI integrations in everyday life to help raise our quality of life.</p>
+            <p className={styles.pee}>Abay Rysbek</p>
+            <p className="fontSize">Software Engineer with a background in UX/UI & Product Design who is passionate about marrying good design practices with practicality and functionality of well-built systems and software. Currently in pursuit of AI integrations in everyday life to help raise our quality of life.</p>
             <button onClick={() => setFontSize(fontSize + 1)}>bigger</button>
             <button onClick={() => setFontSize(fontSize - 1)}>smaller</button>
             <style jsx>{`
