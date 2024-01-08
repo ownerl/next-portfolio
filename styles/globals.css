@@ -6,6 +6,8 @@ class selectors for all components to use
  */
 
 :root {
-  background-color: black;
-  color: white;
+  color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 200;
 }
