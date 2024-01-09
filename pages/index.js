@@ -26,7 +26,7 @@ export default function Home() {
                     <br></br>
                     <h1>Welcome!</h1>
                     <p className={styles.welcome}>
-                        My name is Abay Rysbek, and I'm a software
+                        My name is Abay Rysbek, and I&apos;m a software
                         engineer/designer based in Edmonton, Canada🍁.
                         <br />
                         I am experienced in developing full stack applications
@@ -48,6 +48,7 @@ export default function Home() {
                             height={700}
                             className={styles.tree}
                             title="Escape the Forest"
+                            alt="drawn tree"
                         />
                     </a>
                     <a href="#project2">
@@ -57,6 +58,7 @@ export default function Home() {
                             height={300}
                             className={styles.d20}
                             title="Dungeon Buddy"
+                            alt="drawn d20 die"
                         />
                     </a>
                     <a href="#project4">
@@ -66,6 +68,7 @@ export default function Home() {
                             height={400}
                             className={styles.loom}
                             title="LessonLoom"
+                            alt="lesson loom logo"
                         />
                     </a>
                     <a href="#project1">
@@ -75,6 +78,7 @@ export default function Home() {
                             height={500}
                             className={styles.hand}
                             title="Master Hand"
+                            alt="drawn hand arrow"
                         />
                     </a>
                 </div>
