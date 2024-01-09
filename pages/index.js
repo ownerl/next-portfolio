@@ -17,7 +17,14 @@ export default function Home() {
             <main className={`${styles.main}`}>
                 <section id="about" className={`${styles.section} ${styles.about}`}>
                     <h1>Welcome!</h1>
-                    <p>I</p>
+                    <p className={styles.welcome}>My name is Abay Rysbek, and I'm a software engineer/designer based in Edmonton, Canada🍁. 
+                      <br />
+                      I am experienced in developing full stack applications using the MERN stack as well as Python and Django.
+                      <br />
+                      I love putting on many hats and exploring what is possible.
+                      <br />
+                      <br />
+                      Thank you for visiting my web portfolio and I hope you find my projects interesting!</p>
                     <div className={`${styles.bannerImage}`}></div>
                 </section>
 

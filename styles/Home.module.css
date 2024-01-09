@@ -102,8 +102,8 @@
     justify-content: center;
 }
 
-.about,
 .projects {
+  padding-top: 70px;
 }
 
 .bannerImage,
@@ -116,4 +116,9 @@
 
 .projectItem {
     margin-bottom: 3rem;
+}
+
+.links {
+  text-align: right;
+  right: 0;
 }

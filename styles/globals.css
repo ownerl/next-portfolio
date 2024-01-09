@@ -11,3 +11,18 @@ class selectors for all components to use
   font-family: "Nunito Sans", sans-serif;
   font-weight: 200;
 }
+
+p {
+  width: 800px;
+}
+
+@media (max-width: 1000px) {
+  p {
+    width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  p {
+    width: 300px;
+  }
+}
