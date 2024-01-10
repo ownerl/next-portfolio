@@ -3,6 +3,8 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Projects from "./projects";
 
+// ADD SKIlL/LANGUAGES/TOOLKIT LIST (JS, Python, React, Node, etc)
+
 export default function Home() {
     return (
         <>

@@ -24,7 +24,7 @@ export default function Navbar() {
                 </div>
                 <a
                     target="_blank"
-                    href="https://docs.google.com/document/d/1kaVFyimwXeR4KSvLUeFDRom4an2KKKav/edit?usp=sharing&ouid=114526311039750834752&rtpof=true&sd=true"
+                    href="https://docs.google.com/document/d/1ZQGf8WadLqyQA_bm4a0rzcCNyL_azPwAGaKHQBxoSR0/edit?usp=sharing"
                     className={`${styles.resume}`}
                 >
                     Resume
