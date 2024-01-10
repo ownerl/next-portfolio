@@ -21,7 +21,7 @@ export default function Home() {
                     className={`${styles.intro}`}
                 >
                     <h1 className={styles.name}>ABAY<br />RYSBEK.</h1>
-                    <p className={styles.welcome}>
+                    <p className={styles.welcome} id="projects">
                         My name is Abay Rysbek, and I&apos;m a software
                         engineer/designer based in Edmonton, Canada.
                         I am experienced in developing full stack applications
@@ -34,7 +34,7 @@ export default function Home() {
                 </section>
                 <h1 style={{textAlign: 'left', marginTop: '0'}}>Projects<hr style={{height: '3px', backgroundColor: 'black', borderWidth: 0}} />
 </h1>
-                <div className={styles.images} id="projects">
+                <div className={styles.images}>
                     <a href="#masterhand">
                         <Image
                             src={"/images/hand.PNG"}
