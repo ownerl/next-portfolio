@@ -1,6 +1,5 @@
 import styles from "@/styles/Home.module.css";
-import { useState } from 'react';
-
+import { useState } from "react";
 
 export default function Navbar() {
     const [isProjectsOpen, setIsProjectsOpen] = useState(false);
@@ -10,21 +9,27 @@ export default function Navbar() {
             <a href="#" className={`${styles.logo}`}>
                 Abay Rysbek
             </a>
-            <ul>
-                {/* <li>
-                    <a href="#about">About</a>
-                </li> */}
-                {/* <li className={`${styles.dropdown}`}>
-                    <a href="#projects">Projects</a>
+            <div style={{ display: "inline-flex" }}>
+                {" "}
+                    <a href="#projects" className={`${styles.resume}`}>Projects</a>
+                <div className={`${styles.dropdown}`}>
                     <ul className={`${styles.dropdowncontent}`}>
-                        <li><a href="#project1">Master Hand</a></li>
-                        <li><a href="#project2">LessonLoom</a></li>
+                        <li>
+                            <a href="#project1">Master Hand</a>
+                        </li>
+                        <li>
+                            <a href="#project2">LessonLoom</a>
+                        </li>
                     </ul>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li> */}
-            </ul>
+                </div>
+                <a
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1kaVFyimwXeR4KSvLUeFDRom4an2KKKav/edit?usp=sharing&ouid=114526311039750834752&rtpof=true&sd=true"
+                    className={`${styles.resume}`}
+                >
+                    Resume
+                </a>
+            </div>
         </nav>
     );
 }
