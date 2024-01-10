@@ -34,7 +34,7 @@ export default function Home() {
                 </section>
                 <h1 style={{textAlign: 'left', marginTop: '0'}}>Projects<hr style={{height: '3px', backgroundColor: 'black', borderWidth: 0}} />
 </h1>
-                <div className={styles.images}>
+                <div className={styles.images} id="projects">
                     <a href="#masterhand">
                         <Image
                             src={"/images/hand.PNG"}

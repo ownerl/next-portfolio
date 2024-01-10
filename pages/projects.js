@@ -4,7 +4,6 @@ export default function Projects() {
     return (
         <>
             <section
-                id="projects"
                 className={`${styles.section} ${styles.projects}`}
             >
                 <section id="masterhand" className={`${styles.projects}`}>
