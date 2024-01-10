@@ -37,7 +37,7 @@ export default function Home() {
                 <div className={styles.images}>
                     <a href="#masterhand">
                         <Image
-                            src={"/hand.png"}
+                            src={"/images/hand.PNG"}
                             width={230}
                             height={230}
                             className={styles.hand}
@@ -47,7 +47,7 @@ export default function Home() {
                     </a>
                     <a href="#dungeonbuddy">
                         <Image
-                            src={"/d20.png"}
+                            src={"/images/d20.PNG"}
                             width={200}
                             height={200}
                             className={styles.d20}
@@ -57,7 +57,7 @@ export default function Home() {
                     </a>
                     <a href="#escape">
                         <Image
-                            src={"/Tree.png"}
+                            src={"/images/Tree.png"}
                             width={160}
                             height={250}
                             className={styles.tree}
@@ -67,7 +67,7 @@ export default function Home() {
                     </a>
                     <a href="#lessonloom">
                         <Image
-                            src={"/loom.png"}
+                            src={"/images/loom.png"}
                             width={200}
                             height={200}
                             className={styles.loom}

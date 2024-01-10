@@ -73,7 +73,7 @@ export default function Projects() {
                         <div className={`${styles.leftside}`}>
                             <h2>Dungeon Buddy</h2>
                             <Image
-                                src={"/dungeonbuddy.png"}
+                                src={"/images/dungeonbuddy.png"}
                                 width={720}
                                 height={480}
                                 className={styles.dungeonbuddy}
@@ -131,7 +131,7 @@ export default function Projects() {
                         <div className={`${styles.leftside}`}>
                             <h2>Escape the Forest</h2>
                             <Image
-                                src={"/escape.png"}
+                                src={"/images/escape.png"}
                                 width={720}
                                 height={480}
                                 className={styles.dungeonbuddy}
@@ -177,7 +177,7 @@ export default function Projects() {
                         <div className={`${styles.leftside}`}>
                             <h2>LessonLoom</h2>
                             <Image
-                                src={"/lessonloom.png"}
+                                src={"/images/lessonloom.png"}
                                 width={720}
                                 height={480}
                                 className={styles.dungeonbuddy}
